@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const healthRouter = require('./health');
+const healthRouter = require('./welcome');
 const notificationRouter = require('./notification');
 
 router.use('/', healthRouter);
