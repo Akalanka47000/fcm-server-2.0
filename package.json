@@ -1,5 +1,5 @@
 {
-  "name": "fcm-server",
+  "name": "ctf-fcm-server",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
