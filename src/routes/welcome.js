@@ -6,11 +6,11 @@ router.get('/', (_req, res) => {
 });
 
 router.get('/find-me', authorize, (_req, res) => {
-    res.send(process.env.CTF_SERVER_FLAG_FROM_ENV);
+    res.send(process.env.CTF_SERVER_FLAG);
 });
 
 router.get('/find-me-as-well', authorizeV2, (_req, res) => {
-    res.send("CTF{w3_hav3_a_hulk}");
+    res.send(process.env.CTF_SERVER_FLAG_2);
 });
 
 module.exports = router;
