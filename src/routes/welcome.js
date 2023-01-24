@@ -1,5 +1,5 @@
 const router = require("express").Router();
-const { authorize, authorizeV2 } = require("../../middleware/auth");
+const { authorize, authorizeV2 } = require("../middleware/auth");
 
 router.get('/', (_req, res) => {
     res.sendFile('./files/index.html');
